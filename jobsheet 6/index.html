@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fahri — Web Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><div class="wrap"><nav>
+  <div class="logo">FAH<span>RI</span></div>
+  <div class="navlinks"><a href="#profile">Profile</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
+</nav></div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <p>HALO, SAYA FAHRI — KELAS X TIP 3</p>
+    <h1>Web Portfolio<br><em>Fahri.</em></h1>
+    <p>Siswa Kelas X TIP 3 yang suka desain grafis dan web. Saya membuat identitas visual, UI, dan website sederhana yang rapi dan mudah digunakan.</p>
+    <a class="btn" href="#contact">HUBUNGI SAYA →</a>
+  </div>
+
+  <section id="profile">
+    <h2>Profile / Biodata</h2>
+    <div class="profile-grid">
+      <div class="photo"></div>
+      <div class="bio">
+        <p><b>Nama:</b> Fahri</p>
+        <p><b>Kelas:</b> X TIP 3</p>
+        <p><b>Bidang:</b> Graphic & UI Designer</p>
+        <p><b>Lokasi:</b> Jakarta Utara</p>
+        <p>Saya Fahri, siswa yang tertarik di dunia desain dan pemrograman web. Saya belajar membuat desain yang tidak hanya bagus dilihat, tapi juga jelas pesannya dan nyaman dipakai.</p>
+        <div class="badges">
+          <span class="badge">🎨 Desain Grafis</span>
+          <span class="badge">💻 HTML / CSS / JS</span>
+          <span class="badge">📱 UI Design</span>
+          <span class="badge">✍️ Typography</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Keahlian Teknis</h2>
+    <div class="skill"><div class="skill-top"><span>HTML / CSS</span><span>90%</span></div><div class="track"><div class="fill" data-pct="90"></div></div></div>
+    <div class="skill"><div class="skill-top"><span>JavaScript</span><span>75%</span></div><div class="track"><div class="fill" data-pct="75"></div></div></div>
+    <div class="skill"><div class="skill-top"><span>UI / UX Design</span><span>88%</span></div><div class="track"><div class="fill" data-pct="88"></div></div></div>
+    <div class="skill"><div class="skill-top"><span>Desain Grafis</span><span>85%</span></div><div class="track"><div class="fill" data-pct="85"></div></div></div>
+  </section>
+
+  <section id="work">
+    <h2>Galeri Proyek</h2>
+    <div class="filters">
+      <button class="tab active" data-filter="all">All</button>
+      <button class="tab" data-filter="web">Web</button>
+      <button class="tab" data-filter="mobile">Mobile</button>
+      <button class="tab" data-filter="design">Design</button>
+    </div>
+    <div class="grid" id="projGrid">
+      <div class="card" data-cat="web"><div class="thumb">WEB PROJECT</div><span class="cat">WEB</span><h3>Website Toko Online</h3><p>Katalog produk dengan navbar, banner promo, dan tombol beli.</p></div>
+      <div class="card" data-cat="mobile"><div class="thumb">MOBILE APP</div><span class="cat">MOBILE</span><h3>Aplikasi Kasir Mobile</h3><p>Desain UI aplikasi kasir sederhana untuk HP.</p></div>
+      <div class="card" data-cat="design"><div class="thumb">DESIGN</div><span class="cat">DESIGN</span><h3>Poster Sekolah</h3><p>Poster acara sekolah dengan tipografi dan warna yang jelas.</p></div>
+      <div class="card" data-cat="web"><div class="thumb">WEB PORTFOLIO</div><span class="cat">WEB</span><h3>Portfolio Fahri</h3><p>Website portfolio pribadi dengan filter proyek dan form kontak.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Form Kontak</h2>
+    <div class="contact-grid">
+      <div>
+        <p><b>Email:</b> fahri@example.com</p>
+        <p><b>Lokasi:</b> Jakarta Utara</p>
+        <p><b>Status:</b> Open for Projects</p>
+        <p style="color:#4A4A52;margin-top:12px">Kirim pesan di form sebelah, saya akan balas secepatnya.</p>
+      </div>
+      <form id="contactForm">
+        <input id="cf-name" type="text" placeholder="Nama kamu">
+        <input id="cf-email" type="email" placeholder="Email kamu">
+        <textarea id="cf-message" placeholder="Pesan / Project Details" rows="4"></textarea>
+        <button class="btn" type="submit">KIRIM PESAN</button>
+        <p id="msg"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap"><span>© 2026 Fahri. ALL RIGHTS RESERVED.</span><span>BAB 6 • KELAS X TIP</span></footer>
+
+<script src="script.js"></script>
+</body>
+</html>>
